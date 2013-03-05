@@ -10,8 +10,7 @@ Instruções para configurar a Aplicação:
 3.Execute o seguinte comando no terminal, para configuração:
   - export RAILS_ENV=production 
   - rake db:create
-  - rake db:migrate
-  - rake assets:precompile 
+  - rake db:migrate 
 4.Inicialize o servidor em produção, com o seguinte comando: "rails server"
 5.Com o seu servidor rodando, se você abrir "http://localhost:3000/arquivo" em um navegador de sua preferência, verá a aplicação, que deve rodar tal qual a solicitação do Desafio 1.
 
